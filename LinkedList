@@ -1,0 +1,24 @@
+package com.yeonjee.practice02;
+
+import java.util.LinkedList;
+
+public class LinkedListTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<String> object = new LinkedList<String>();
+		
+		object.add("A");
+		object.add("B");
+		object.addLast("C");
+		object.addFirst("D");
+		System.out.println("LinkedList : " + object);
+		
+		object.remove("B");
+		System.out.println("removed List : " + object);
+		
+		object.removeFirst();
+		System.out.println("remove first : " + object);
+	}
+
+}
