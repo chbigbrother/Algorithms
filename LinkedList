@@ -3,7 +3,8 @@ package com.yeonjee.practice02;
 import java.util.LinkedList;
 
 public class LinkedListTest {
-
+	//LinkedList has O(N) time complexity (time equals data quantity)
+	//but if it doesn't have any middle data, its time complexity will be O(1)
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		LinkedList<String> object = new LinkedList<String>();
